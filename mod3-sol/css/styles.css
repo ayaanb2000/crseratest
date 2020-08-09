@@ -1,0 +1,242 @@
+body{
+  background-color: white;
+  font-size: 25px;
+  color :  black;
+  font-family: 'Orange',sans-serif;
+ 
+
+}
+
+#header-nav{
+
+	background-color: grey;
+	border-radius: 0;
+  border: 0;
+}
+
+
+.navbar-brand{
+	margin-left: 10px;
+  padding: 0;
+  margin-top: 15px;
+  height: 10px;
+}
+
+.navbar-brand h1{
+	text-decoration: none;                              
+	text-align: center;
+    font-family: 'Lora', serif;
+    color: black;
+    font-size:3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0px;
+    margin-bottom: 0;
+    line-height:0.5;
+    vertical-align: middle;
+    margin-left:50px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+#nav-list {
+  margin-top: 10px;
+  margin-right: auto;
+  text-align: center;
+  background-color: peachpuff;
+
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+/*#nav-list a:hover {
+  background: #E7E7E7;
+}*/
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+
+}
+
+
+ #cont{
+          border: 2px solid black;
+          height: 650px;
+          margin-right: auto;
+          margin-left: 15px;
+          color: black;
+          background-color: grey;
+          padding : 20px;
+          margin-bottom: 20px;
+          overflow: auto;
+          width: 100%;
+      }
+
+h3{
+     
+      padding: 25px;
+      text-align: center;
+      margin-top :0px;
+      margin-bottom: 0px;
+      font-weight: bold;
+
+     }
+
+
+
+#Menu-categories{
+
+  margin-bottom: 30px;
+  font-size: 1.5em;
+  border: 1px solid black;
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.row{
+  width: 100%;
+}
+
+
+@media (min-width: 1200px) { 
+
+    .navbar-brand {
+    padding-top: 15px;
+    height: 70px;
+     }
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 0.7em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 0.7em;
+   /* margin-right: 2px;*/
+  }
+  
+  #collapsable-nav{
+    padding: ;
+  }
+
+  .navbar-brand {
+    padding-top: 5px;
+    height: 60px;
+  } 
+  
+}
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .navbar-brand {
+    padding-top: 5px;
+    height: 50px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 4vw; /* 1vw = 1% of viewport width */
+    margin-left: 10px;
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .4em;
+    margin-top: 8px;
+    margin-left: 10px;
+
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 0.7em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 0.7em;
+   /* margin-right: 2px;*/
+  }
+
+  #collapsable-nav{
+    margin: 0;
+  }
+}
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 6vw; /* 1vw = 1% of viewport width */
+    margin-left:20px;
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+    margin-left:20px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 0.8em;
+    text-align: center;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 0.8em;
+    margin-right: 5px;
+  }
+
+  #collapsable-nav{
+    margin: 0;
+    padding :  0;
+  }
+ 
+  .col-sm-12{
+    width: 100%;
+  }
+  .container{
+
+     width: 100% !important;
+     padding: 0;
+  }
+  #nav-list{
+
+      margin-right: 0;
+      margin-left: 0;
+  }
+  button.navbar-toggle
+  {
+     margin-right: 30px;
+     margin-top : 30px;
+  }
+
+  #cont a{
+
+      background-color: pink;
+      width: 300px;
+  }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-sm-12{
+    width: 100% !important;
+  }
